@@ -1,0 +1,10 @@
+adj1 adj2 noun1 noun2 	would require context sensitive
+
+
+BAL -> null
+	-> (BAL)
+	-> BAL BAL
+(this is context free)	
+
+it does not contain ([)]
+
