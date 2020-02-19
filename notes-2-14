@@ -8,3 +8,14 @@ BAL -> null
 
 it does not contain ([)]
 
+struct Node{
+	int iVal;
+	char* sVal;
+}
+gives 32 bits, then 64 bits - wastes memory
+
+union Node{
+	int ...
+	...
+}
+uses the same 64 bits but can cause problems. The first 32 bits are int
